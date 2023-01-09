@@ -58,3 +58,50 @@ body {
     background: var(--dark-blue);
     color: var(--white);
 }
+
+.figure {
+    background-image: url("../assets/images/pixel-seamless.jpeg");
+    border: 5px solid var(--dark-blue);
+    border-top: 0px;
+    height: 500px;
+    background-size: center;
+    display: flex;
+    align-items: center;
+}
+
+.figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    width: 25%;
+}
+
+.titles {
+    font-size: 40px;
+    color: var(--blue);
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--black);
+}
+
+.items ul li {
+    color: var(--black);
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+}
+
+
+#title-about {
+    color: var(--white);
+}
