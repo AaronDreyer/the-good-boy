@@ -105,3 +105,19 @@ body {
 #title-about {
     color: var(--white);
 }
+
+#title-about {
+    color: var(--white);
+}
+
+.about-me {
+    border: 5px solid var(--dark-blue);
+    background-color: var(--blue);
+}
+
+
+.about-me p {
+    color: var(--white);
+    font-size: 25px;
+    padding: 20px;
+}
