@@ -1,3 +1,4 @@
+/* Root to repeat colors */
 :root {
     --white: #ffffff;
     --blue: #2565AE;
@@ -11,23 +12,30 @@
     box-sizing: border-box;
 }
 
+/* Default body stlying */
 body {
     color: var(--black);
     background-color: var(--white);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Aligns and spaces top navigation bar */
 .header {
     background-color: var(--white);
     border: 5px solid var(--dark-blue);
     display: flex;
+    /* used for new-fangled layout methods like Flexbox */
     justify-content: space-between;
+    /* items are evenly distributed in the line; first item is on the start line, last item on the end line */
     flex-wrap: wrap;
+    /* defines whether the flex items are forced in a single line or can be flowed into multiple lines */
     padding: 20px;
 }
 
+/* Main Heading */
 .header h1 {
     display: inline-block;
+    /* Similar to inline but you can set width and height */
     font-size: 40px;
     font-weight: bold;
     color: var(--white);
@@ -43,6 +51,7 @@ body {
     font-size: 30px;
 }
 
+/* Aligns navigation bar */
 .header section ul li {
     display: inline-block;
 }
@@ -54,11 +63,13 @@ body {
     text-decoration: none;
 }
 
+/* Creats hover on navigation bar */
 .header ul li a:hover {
     background: var(--dark-blue);
     color: var(--white);
 }
 
+/* Main background image */
 .figure {
     background-image: url("../assets/images/pixel-seamless.jpeg");
     border: 5px solid var(--dark-blue);
@@ -69,6 +80,7 @@ body {
     align-items: center;
 }
 
+/* Centers Profile Picture */
 .figure img {
     display: block;
     margin-left: auto;
@@ -77,6 +89,7 @@ body {
     width: 25%;
 }
 
+/* Styles all <h2> headings */
 .titles {
     font-size: 40px;
     color: var(--blue);
@@ -86,6 +99,7 @@ body {
     padding: 10px;
 }
 
+/* Center and styles quote */
 .quote {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
@@ -94,6 +108,7 @@ body {
     color: var(--black);
 }
 
+/* COding Skills Section */
 .items ul li {
     color: var(--black);
     text-align: center;
@@ -106,10 +121,7 @@ body {
     color: var(--white);
 }
 
-#title-about {
-    color: var(--white);
-}
-
+/* About Me Section */
 .about-me {
     border: 5px solid var(--dark-blue);
     background-color: var(--blue);
@@ -122,13 +134,14 @@ body {
     padding: 20px;
 }
 
+/* Start of Work Section */
 .work {
     border: 5px solid var(--white);
     border-top: 0px;
     display: block;
 }
 
-
+/* Styles only first card (Project 1) */
 .card {
     position: relative;
 }
@@ -145,10 +158,13 @@ body {
     height: 500px;
 }
 
+/* Styles card 2/3 (Project 2 and 3 */
 .card-2-3 {
     display: flex;
     flex-direction: row;
+    /* establishes the main-axis, thus defining the direction flex items are placed in the flex container */
     justify-content: center;
+    /* items are centered along the line */
     text-align: center;
 }
 
@@ -162,6 +178,7 @@ body {
     height: 80%;
 }
 
+/* Styles cards 4/5 (Projects 4 and 5) */
 .card-4-5 {
     display: flex;
     flex-direction: row;
@@ -179,6 +196,7 @@ body {
     height: 70%;
 }
 
+/* Contact Me Section (footer) */
 .contact-me {
     border: 5px solid var(--dark-blue);
     background-color: var(--blue);
@@ -188,6 +206,7 @@ body {
     color: var(--white);
 }
 
+/* Aligns bottom navigation bar */
 .list {
     padding-top: 30px;
     margin-bottom: 50px;
@@ -198,6 +217,7 @@ body {
 ul {
     list-style-type: none;
     justify-content: space-evenly;
+    /* items are distributed so that the spacing between any two adjacent alignment subjects */
     align-content: center;
     font-size: 30px;
     font-weight: bolder;
@@ -218,6 +238,7 @@ ul li p {
     color: var(--white);
 }
 
+/* MEDIA QUERY for Tablets/Smaller Screens */
 @media screen and (max-width: 800px) {
 
     .title {
@@ -225,6 +246,7 @@ ul li p {
     }
 }
 
+/* MEDIA QUERY for Smart Phones/Smaller Screens */
 @media screen and (max-width: 600px) {
     
     header {
