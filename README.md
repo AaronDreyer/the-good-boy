@@ -41,9 +41,10 @@ Following Websites were used:
 - https://css-tricks.com/?s=
 - https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 - https://www.geeksforgeeks.org/css/
+- https://github.com/AaronDreyer/Ultimate-Code-Fix
 
 ## License
 
-License provided by Georgia Tech Bootcamp through predetermined Starter Code.
+License provided by Georgia Tech Bootcamp.
 
 External liscense not specified.
