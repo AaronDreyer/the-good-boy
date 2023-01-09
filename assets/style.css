@@ -218,3 +218,60 @@ ul li p {
     color: var(--white);
 }
 
+@media screen and (max-width: 800px) {
+
+    .title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    header {
+        justify-content: center;
+    }
+
+    .figure img {
+        width: 50%;
+    }
+
+    .titles {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: large;
+    }
+
+    .about-me p {
+        font-size: 16px;
+        line-height: 1.6;
+        width: 100%;
+    }
+
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5 {
+        font-size: 15px;
+    }
+
+    .card-1 img {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+    }
+
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li {
+        margin: 5px;
+        text-align: center;
+    }
+    
+}
