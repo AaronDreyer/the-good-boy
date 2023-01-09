@@ -17,9 +17,9 @@ This is a personal portfolio for the developer (Aaron Dreyer) to test the skills
 
 ## Link
 
-[Link to deployed website]()
+[Link to deployed website](https://aarondreyer.github.io/the-good-boy/)
 
-[Link to Repository]()
+[Link to Repository](https://github.com/AaronDreyer/the-good-boy)
 
 ## Installation
 
@@ -31,7 +31,7 @@ Links above bring user to deployed page and github repository
 
 This application demonstrates advanced usage of HTML and CSS to create a webpage for professional use. The portfolio is visually appealing, semantical, and operates according to acceptance criteria. This portfolio will be used professionally for the developer upon graduation and is an example to others on how to complete a portfolio webpage.
 
-![alt text]()
+![alt text](assets/images/_Users_aaronottaway_Desktop_Module-2-Challenge_the-good-boy_index.html.png)
 
 ## Credits
 
