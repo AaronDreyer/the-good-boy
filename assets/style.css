@@ -154,8 +154,13 @@ body {
     text-align: center;
 }
 
+.card-1 p {
+    padding-bottom: 10px;
+}
+
 .card-1 img {
     height: 500px;
+    border: solid var(--black);
 }
 
 /* Styles card 2/3 (Project 2 and 3 */
