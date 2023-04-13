@@ -167,19 +167,19 @@ body {
 .card-2-3 {
     display: flex;
     flex-direction: row;
-    /* establishes the main-axis, thus defining the direction flex items are placed in the flex container */
     justify-content: center;
-    /* items are centered along the line */
     text-align: center;
-}
-
+  }
+  
 .card-2 {
-    width: 70%;
-    height: 80%;
+    margin: auto;
+    width: 100%;
+    height: 70%;
 }
 
 .card-3 {
-    width: 70%;
+    margin: auto;
+    width: 50%;
     height: 80%;
 }
 
